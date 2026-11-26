@@ -88,7 +88,7 @@ class EnvironmentIndicatorPlugin implements Plugin
     }
 
     /**
-     * @return array{color: string, primary: string, secondary: ?string, title: string}|null
+     * @return array{color: string, textColor: string, primary: string, secondary: ?string, title: string}|null
      */
     protected function resolveData(): ?array
     {
